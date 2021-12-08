@@ -19,6 +19,8 @@ app.get("/car/list", (req, res) => {
   res.end();
 });
 
+// fetch 후 수정 저장
+
 const server = http.createServer(app);
 server.listen(3000, () => {
   console.log("서버 실행 중 >>> http://localhost:3000");
