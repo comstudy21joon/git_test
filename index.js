@@ -19,12 +19,16 @@ app.get("/car/list", (req, res) => {
   res.end();
 });
 
+<<<<<<< HEAD
 // 1. 원격 저장소의 내용 임의 수정
 // 2. 지역 저장소의 내용 수정
 // 한번에 push가 안된다.
 // 3. fetch를 이용한 변경 이력 가져오기
 // 4. 원격 브랜치와 지역 브랜치 병합
 // 5. 지역 브랜치 커밋 후 push
+=======
+// 원격지에서 내용을 임의로 변경
+>>>>>>> origin/master
 
 const server = http.createServer(app);
 server.listen(3000, () => {
