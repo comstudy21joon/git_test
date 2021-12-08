@@ -19,8 +19,7 @@ app.get("/car/list", (req, res) => {
   res.end();
 });
 
-// fetch 후 수정 저장
-// 새로운 저장
+// 원격지에서 내용을 임의로 변경
 
 const server = http.createServer(app);
 server.listen(3000, () => {
