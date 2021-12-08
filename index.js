@@ -13,6 +13,7 @@ app.get("/car/input", (req, res) => {
 });
 
 app.get("/car/list", (req, res) => {
+  console.log("GET - /car/list 호출");
   res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
   res.write("<h2>자동차 목록</h2>");
   res.end();
